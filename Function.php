@@ -1,5 +1,5 @@
 <?php
-    // require'dbConnect.php';
+     require'dbConnect.php';
     function insert($data){
         $con = dbconnect();
         $sql = "insert into Actualite (titre, sousTitre, description, data) values('%s', '%s', '%s', '%s')";
