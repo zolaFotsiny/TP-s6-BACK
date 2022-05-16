@@ -139,7 +139,7 @@
             <input  type="text" name='titre' placeholder='Titre'>
             <input type="text" name='sousTitre' placeholder='sousTitre'>
             <input type="date" name='date' placeholder='description'>
-                <textarea name="actualite"  placeholder='Actualité' cols="30" rows="10"></textarea>
+                <textarea name="description"  placeholder='Actualité' cols="30" rows="10"></textarea>
             <input type="file" placeholder='importer image'>
             <button class='bt' type='submit' >Envoyer</button>
             <br>
