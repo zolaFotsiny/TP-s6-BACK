@@ -1,6 +1,7 @@
 <?php
      require'dbConnect.php';
-    function insert($data){
+    
+     function insert($data){
         $con = dbconnect();
         $sql = "insert into Actualite (titre, sousTitre, description, data) values('%s', '%s', '%s', '%s')";
         $sqlFinal = sprintf($sql,$data['titre'],$data['sousTitre'],$data['description'],$data['date']);   
